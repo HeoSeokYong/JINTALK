@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jintalk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ye"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ye_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RegisterActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:host="action" android:scheme="jjintalkapp"/>
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".LoginActivity"
+            />
+        <activity
+            android:name=".SpActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".mypa"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".person"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".Second"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".Third"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".Fourth"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".Fifth"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+    </application>
+
+</manifest>

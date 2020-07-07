@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "595173916666",
+    "firebase_url": "https://studied-bounty-275007.firebaseio.com",
+    "project_id": "studied-bounty-275007",
+    "storage_bucket": "studied-bounty-275007.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595173916666:android:693270e22bed99f6b92e43",
+        "android_client_info": {
+          "package_name": "com.example.jintalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595173916666-no6a7geh7vumbvodupqlilupnqojoj2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG-Wkxvz_DU9yciS1FreHqpk45DUgSJgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595173916666-no6a7geh7vumbvodupqlilupnqojoj2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

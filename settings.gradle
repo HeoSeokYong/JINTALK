@@ -1,0 +1,2 @@
+rootProject.name='JINTALK'
+include ':app'
